@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Для тебя ❤️</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="hearts"></div> 
+
+<!-- Экран 1 -->
+<section id="screen1" class="screen active">
+    <h1>У меня для тебя письмо 💌</h1>
+    <img src="img/letter.png" class="image">
+    <button onclick="nextScreen(2)">Далее →</button>
+</section>
+
+<!-- Экран 2 -->
+<section id="screen2" class="screen">
+    <h1>Хочешь открыть? 💖</h1>
+    <img src="img/pic.jpg" class="image">
+    <button onclick="nextScreen(3)">Открыть</button>
+    <button id="noBtn">Нет</button>
+</section>
+
+<!-- Экран 3 -->
+<section id="screen3" class="screen">
+    <h1>С Днем Святого Валентина ❤️</h1>
+    <p>Нажми на кнопку</p>
+
+    <div class="carousel">
+        <img id="carouselImage" src="img/photo1.jpg">
+    </div>
+
+    <button onclick="nextScreen(4)">Далее</button>
+</section>
+
+<!-- Экран 4 -->
+<section id="screen4" class="screen">
+    <h1>Ты делаешь мою жизнь счастливее 💕</h1>
+    <p class="final-text">
+        Спасибо, что ты есть.  
+        Я очень ценю тебя 🥰
+    </p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
