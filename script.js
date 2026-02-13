@@ -14,7 +14,7 @@ noBtn.addEventListener("mouseover", moveButton);
 noBtn.addEventListener("touchstart", moveButton);
 
 function moveButton() {
-    noBtn.style.position = "absolute";
+    noBtn.style.position = "fixed";
     noBtn.style.left = Math.random() * (window.innerWidth - 100) + "px";
     noBtn.style.top = Math.random() * (window.innerHeight - 50) + "px";
 }
