@@ -8,6 +8,8 @@ function nextScreen(number) {
 }
 
 // Бегающая кнопка "Нет"
+const noBtn = document.getElementById("noBtn");
+
 noBtn.addEventListener("mouseover", moveButton);
 noBtn.addEventListener("touchstart", moveButton);
 
